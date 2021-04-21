@@ -16,7 +16,7 @@ const cookieParser = require('cookie-parser');
 const session      = require('express-session');
 
 const configDB = require('./config/database.js');
-const setupRoutes = require('./config/app/routes.js')
+const setupRoutes = require('/app/routes.js')
 
 let db
 
